@@ -1,0 +1,16 @@
+/* Partner Bonus Strat Hare */
+.nr--partner--wrapper {
+  padding: 60px 0;
+}
+
+.nr--partner--header {
+  max-width: 795px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.nr--partner--header p span {
+  color: #18caae;
+}
+/* Partner Bonus End Hare */
