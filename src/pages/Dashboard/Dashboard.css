@@ -101,7 +101,7 @@ Somor malakar code
   gap: 10px;
 }
 
-/* .sh-dashboard-menu-item-active {
+.sh-dashboard-menu-item-active {
   border-radius: 8px;
   border: 1.4px solid var(--gradient-light, rgba(255, 255, 255, 0.47));
   background: linear-gradient(225deg, #18CAAE 14.89%, #83258D 85.85%);
@@ -114,7 +114,7 @@ Somor malakar code
   align-items: center;
   justify-content: start;
   gap: 10px;
-} */
+}
 
 .sl-dashboard-content {
   width: 75%;

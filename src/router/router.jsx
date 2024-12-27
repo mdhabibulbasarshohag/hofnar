@@ -49,47 +49,47 @@ const router = createBrowserRouter([
         children: [
           {
             index: true,
-            path: "/dashboard",
+           
             element: <DashboardMain />,
           },
           {
-            path: "/dashboard/add-funds",
+            path: "add-funds",
             element: <AddFounds />,
           },
           {
-            path: "/dashboard/open-deposit",
+            path: "open-deposit",
             element: <OpenDeposit />,
           },
           {
-            path: "/dashboard/deposits",
+            path: "deposits",
             element: <Deposits />,
           },
           {
-            path: "/dashboard/withdraw",
+            path: "withdraw",
             element: <Withdraw />,
           },
           {
-            path: "/dashboard/wallet",
+            path: "wallet",
             element: <Wallet />,
           },
           {
-            path: "/dashboard/history",
+            path: "history",
             element: <History />,
           },
           {
-            path: "/dashboard/my-team",
+            path: "my-team",
             element: <MyTeam />,
             children: [
               {
-                path: "/dashboard/my-team/",
+                path: "",
                 element: <Level1 />,
               },
               {
-                path: "/dashboard/my-team/level-2",
+                path: "level-2",
                 element: <Level1 />,
               },
               {
-                path: "/dashboard/my-team/level-3",
+                path: "level-3",
                 element: <Level1 />,
               },
             ],

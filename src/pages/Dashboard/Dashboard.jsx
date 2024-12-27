@@ -7,7 +7,7 @@ const Dashboard = () => {
     return (
         <section
             className="sl-dashboard-section"
-            style={{ backgroundImage: { dashboardBg } }}
+            style={{ backgroundImage: `url(${dashboardBg})` }}
         >
             <div className="container">
                 <div className="sl-dashboard-container">
@@ -15,6 +15,7 @@ const Dashboard = () => {
 
                         <NavLink
                             to="/dashboard"
+                            end
                             className={({ isActive, isPending }) =>
                                 isPending ? "" : isActive ? "sh-dashboard-menu-item-active" : "sh-dashboard-menu-item"
                             }

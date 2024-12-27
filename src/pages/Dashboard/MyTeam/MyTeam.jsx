@@ -28,7 +28,8 @@ const MyTeam = () => {
                     <div className="sm-myteam-item-bottom-item">
                         <NavLink className={({ isActive, isPending }) =>
                             isPending ? "" : isActive ? "sm-team-nav-tab-btn active" : "sm-team-nav-tab-btn"}
-                            to="/dashboard/my-team">
+                            to="/dashboard/my-team" end>
+                            
                             Level 1
                         </NavLink>
                         <NavLink className={({ isActive, isPending }) =>
